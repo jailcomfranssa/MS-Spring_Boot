@@ -10,13 +10,13 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Entity
 public class Rating {
 
-    @Id
     private String ratinId;
     private String userId;
     private String hotelId;
     private int rating;
     private String feedback;
+
+    private Hotel hotel;
 }
