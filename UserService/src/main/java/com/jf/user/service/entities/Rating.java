@@ -11,8 +11,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Builder
 public class Rating {
-
-    private String ratinId;
+    private Long ratingId;
     private String userId;
     private String hotelId;
     private int rating;
